@@ -27,3 +27,6 @@ jobs:
 
       - name: Run Vitest tests
         run: npm test
+
+      - name: Run ESLint
+        run: npm run lint
