@@ -3,11 +3,11 @@ import cors from "cors";
 
 const app = express();
 
-// app.use(cors());
+app.use(cors());
 
 app.get("/", (req, res) => {
-  x = 120;
-  const hello = 12;
+  const greeting = "hello from the console";
+  console.log(greeting);
 
   res.json("WELCOME!");
 });
