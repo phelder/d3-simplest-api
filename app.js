@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   x = 120;
   const hello = 12;
 
-  res.json("WELCOME!!!!!!!");
+  res.json("WELCOME!");
 });
 
 app.get("/health", (req, res) => {
