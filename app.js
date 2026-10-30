@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.json("WELCOME");
+  res.json("WELCOME!!!!!!!");
 });
 
 app.get("/health", (req, res) => {
